@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    .reverse{width: 250px; height: 300px;}
+</style>
+    <title>Query</title>
+    <script src="http://code.JQuery.com/JQuery-3.6.0.js"></script>
+    <script>         
+        $(document).ready(function(){
+             $('img').hover(function(){
+$(this).addClass('reverse');
+             },function(){
+$(this).removeClass('reverse');
+             });
+        });
+    </script>
+</head>
+<body>
+
+    <img src="./1.jpg" width="100" height="100">
+    <img src="./2.jpg" width="100" height="100">
+    <img src="./3.jpg" width="100" height="100">
+    <img src="./4.jpg" width="100" height="100">
+    <img src="./5.jpg" width="100" height="100">
+    <img src="./6.jpg" width="100" height="100">
+
+    
+</body>
+</html>
